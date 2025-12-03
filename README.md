@@ -200,6 +200,138 @@ python -c "from supra_sdk.account import Account; print('✅ Supra SDK installed
     "default_price": 50000.0,
     "min_size_usd": 300.0,
     "max_size_usd": 500000.0
+  },
+  "SOL_USD": {
+    "type_arg": "SOL_USDT",
+    "description": "Solana vs US Dollar",
+    "available_testnet": true,
+    "available_mainnet": true,
+    "default_size_usd": 300.0,
+    "default_collateral_usd": 3.0,
+    "default_price": 150.0,
+    "min_size_usd": 300.0,
+    "max_size_usd": 500000.0
+  },
+  "ADA_USD": {
+    "type_arg": "ADA_USDT",
+    "description": "Cardano vs US Dollar",
+    "available_testnet": true,
+    "available_mainnet": false,
+    "default_size_usd": 300.0,
+    "default_collateral_usd": 3.0,
+    "default_price": 1.2,
+    "min_size_usd": 300.0,
+    "max_size_usd": 500000.0
+  },
+  "SUPRA_USD": {
+    "type_arg": "SUPRA_USDT",
+    "description": "Supra vs US Dollar",
+    "available_testnet": true,
+    "available_mainnet": true,
+    "default_size_usd": 300.0,
+    "default_collateral_usd": 3.0,
+    "default_price": 0.5,
+    "min_size_usd": 300.0,
+    "max_size_usd": 500000.0
+  },
+  "DOGE_USD": {
+    "type_arg": "DOGE_USDT",
+    "description": "Dogecoin vs US Dollar",
+    "available_testnet": true,
+    "available_mainnet": false,
+    "default_size_usd": 300.0,
+    "default_collateral_usd": 3.0,
+    "default_price": 0.25,
+    "min_size_usd": 300.0,
+    "max_size_usd": 500000.0
+  },
+  "XLM_USD": {
+    "type_arg": "XLM_USDT",
+    "description": "Stellar vs US Dollar",
+    "available_testnet": true,
+    "available_mainnet": false,
+    "default_size_usd": 300.0,
+    "default_collateral_usd": 3.0,
+    "default_price": 0.3,
+    "min_size_usd": 300.0,
+    "max_size_usd": 500000.0
+  },
+  "LINK_USD": {
+    "type_arg": "LINK_USDT",
+    "description": "Chainlink vs US Dollar",
+    "available_testnet": true,
+    "available_mainnet": false,
+    "default_size_usd": 300.0,
+    "default_collateral_usd": 3.0,
+    "default_price": 25.0,
+    "min_size_usd": 300.0,
+    "max_size_usd": 500000.0
+  },
+  "ARB_USD": {
+    "type_arg": "ARB_USDT",
+    "description": "Arb vs US Dollar",
+    "available_testnet": true,
+    "available_mainnet": false,
+    "default_size_usd": 300.0,
+    "default_collateral_usd": 3.0,
+    "default_price": 1.0,
+    "min_size_usd": 300.0,
+    "max_size_usd": 500000.0
+  },
+  "HYPE_USD": {
+    "type_arg": "HYPE_USDT",
+    "description": "Hype vs US Dollar",
+    "available_testnet": true,
+    "available_mainnet": false,
+    "default_size_usd": 300.0,
+    "default_collateral_usd": 3.0,
+    "default_price": 0.1,
+    "min_size_usd": 300.0,
+    "max_size_usd": 500000.0
+  },
+  "AVAX_USD": {
+    "type_arg": "AVAX_USDC",
+    "description": "Avalanche vs US Dollar",
+    "available_testnet": true,
+    "available_mainnet": false,
+    "default_size_usd": 300.0,
+    "default_collateral_usd": 3.0,
+    "default_price": 40.0,
+    "min_size_usd": 300.0,
+    "max_size_usd": 500000.0
+  },
+  "BNB_USD": {
+    "type_arg": "BNB_USDC",
+    "description": "Binance Coin vs US Dollar",
+    "available_testnet": true,
+    "available_mainnet": false,
+    "default_size_usd": 300.0,
+    "default_collateral_usd": 3.0,
+    "default_price": 400.0,
+    "min_size_usd": 300.0,
+    "max_size_usd": 500000.0
+  },
+  "OP_USD": {
+    "type_arg": "OP_USDT",
+    "description": "Optimism vs US Dollar",
+    "available_testnet": true,
+    "available_mainnet": false,
+    "default_size_usd": 300.0,
+    "default_collateral_usd": 3.0,
+    "default_price": 2.0,
+    "min_size_usd": 300.0,
+    "max_size_usd": 500000.0
+  },
+  "XRP_USD": {
+    "type_arg": "XRP_USDT",
+    "description": "Ripple vs US Dollar",
+    "available_testnet": true,
+    "available_mainnet": false,
+    "default_size_usd": 300.0,
+    "default_collateral_usd": 3.0,
+    "default_price": 0.7,
+    "min_size_usd": 300.0,
+    "max_size_usd": 500000.0
   }
 }
 ```
