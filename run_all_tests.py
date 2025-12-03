@@ -4,6 +4,7 @@ Comprehensive Test Runner for Dexlyn Perpetuals Trading Bot
 Runs all test cases systematically
 """
 
+import asyncio
 import os
 import sys
 import time
@@ -46,7 +47,7 @@ class TestSuiteRunner:
         
         return test_cases
     
-    def run_test_suite(self, suite_name: str = "all"):
+    async def run_test_suite(self, suite_name: str = "all"):
         """Run specific test suite or all tests"""
         all_tests = self.discover_test_cases()
         
@@ -91,7 +92,7 @@ class TestSuiteRunner:
                 bot = AdvancedDexlynTradingBot(self.config_dir)
                 bot.load_custom_strategies(test_file)
                 
-                success = bot.executor.execute_strategy(strategy_name)
+                success = await bot.executor.execute_strategy(strategy_name)
                 
                 self.results[test_name] = {
                     "status": "PASS" if success else "FAIL",
@@ -165,7 +166,7 @@ def main():
             print(f"  🧪 {test_name} -> {test_file}")
         return
     
-    runner.run_test_suite(args.suite)
+    asyncio.run(runner.run_test_suite(args.suite))
 
 if __name__ == "__main__":
     main()
