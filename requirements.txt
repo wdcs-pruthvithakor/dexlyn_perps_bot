@@ -1,0 +1,2 @@
+python-dotenv==1.2.1
+supra-sdk==0.1.0
